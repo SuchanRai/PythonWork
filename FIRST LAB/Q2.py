@@ -2,4 +2,6 @@
 # Every number is given on a separate line
 length = int(input('Enter the length-'))
 heigth = int(input('enter the height-'))
+area = length * heigth*1/2
+print(f'The area = {area}')
 
