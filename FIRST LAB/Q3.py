@@ -1,3 +1,7 @@
 name = input('enter your name-')
 age = input('enter your age-')
-print(f'My name is {name}.And my age is {age}')
+print(f'1 My name is {name}.And my age is {age}')
+print('2 My name is ' + name +'And my age is ' +age)
+print('3 My name is',name,'and i am ',age,'yrs old')
+print('4 My name is %s and i am %s yrs old' % (name,age))
+print('5 my name is {} and i am {} yrs old'.format(name, age))
