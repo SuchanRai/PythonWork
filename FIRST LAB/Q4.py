@@ -4,7 +4,7 @@
 
 number_of_student = int(input('enter the total number of students:'))
 number_of_apples = int(input('enter the total number of apples:'))
-divisible_apples = number_of_apples/number_of_student
+divisible_apples = number_of_apples//number_of_student
 remaining_apples = (number_of_apples%number_of_student)
 print(f'each student got {divisible_apples}')
 print(f'the remaining apples are {remaining_apples} ')
